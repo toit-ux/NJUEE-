@@ -7,7 +7,7 @@
 如果远程有内容，将远程仓库中的内容克隆到本地实现本地与远程的连接
 1. git init 初始化本地仓库
 2. git remote add origin https://gitee.com/NJUEE/njuee.git 将远端仓库链接到本地仓库
-3. git clone +url 将远程仓库克隆到本地，同时将连个仓库链接
+3. git clone +url 将远程仓库克隆到本地
 4. 在本地仓库中进行文件修改
 5. gie add . 将修改提交到缓冲区
 6. git commit -m "修改信息" 将修改提交到本地仓库的index中
