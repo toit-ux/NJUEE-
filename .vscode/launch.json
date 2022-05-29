@@ -1,13 +1,21 @@
 {
-    "version": "0.2.0",
     "configurations": [
         {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug",
-            "program": "${fileDirname}/dao.exe",
-            "args": [],
-            "cwd": "${workspaceFolder}"
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            //此处是编译器路径，以后可直接在此修改
+            "compilerPath": "F:/my_create/dev_cpp/mingw64",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
         }
-    ]
+    ],
+    "version": 4
 }
