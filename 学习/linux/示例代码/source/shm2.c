@@ -13,7 +13,7 @@ int main(int argc, char** argv)
   people *p_map;
   char temp;
   p_map=(people*)mmap(NULL,sizeof(people)*10,PROT_READ|PROT_WRITE,
-       MAP_SHARED|MAP_ANONYMOUS,-1,0);
+       MAP_SHARED|MAP_ANONYMOUS,-1,0);  //无名共享库
   if(fork() == 0)
   {
     sleep(2);
