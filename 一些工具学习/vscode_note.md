@@ -8,6 +8,8 @@
  [一个非常有用的教学文档](https://orangex4.cool/post/notes-in-markdown/#%E4%BF%AE%E6%94%B9%E9%A2%84%E8%A7%88%E7%AA%97%E5%8F%A3%E8%83%8C%E6%99%AF-%E9%80%89%E5%81%9A)
  
  [latex常用符号](https://blog.csdn.net/ViatorSun/article/details/82826664?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162306595616780261931583%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162306595616780261931583&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-82826664.pc_search_result_before_js&utm_term=latex&spm=1018.2226.3001.4187)
+ 
+ [latex箭头](https://blog.csdn.net/Artoria_QZH/article/details/103310704)
 
 ---
 ## 基本操作
