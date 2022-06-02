@@ -11,6 +11,8 @@
  
  [latex箭头](https://blog.csdn.net/Artoria_QZH/article/details/103310704)
 
+ [绘图软件](https://zhuanlan.zhihu.com/p/496086808)
+
 ---
 ## 基本操作
  1. 插入公式: $x^2+y^2=1$
@@ -82,6 +84,13 @@ classDiagram
   &emsp;：输入两个空格
   ```
   example:空 &ensp; 格
+
+2. 修改特定格式的样式
+   1. `ctrl shift p`搜索MPE(自定义样式)，进入style.less修改
+   2. 例图：
+
+    ![](images/2022-06-01-20-02-13.png)
+
 
 # 用vscode写作业遇到的问题
 1. 用浏览器导出pdf时，代码不能完整保留；
