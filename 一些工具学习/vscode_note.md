@@ -1,3 +1,5 @@
+#! https://zhuanlan.zhihu.com/p/524742276
+
 [TOC]
 ## 如何使用vscode写笔记？
 
@@ -79,7 +81,7 @@
 
 
 [mermaid支持的绘图类型代码介绍](https://mermaid-js.github.io/mermaid/#/)
-## 类图
+##### 类图
 
 
 ```mermaid
@@ -98,7 +100,7 @@ classDiagram
   
 ```
 
-#### 制作PPT
+## 制作PPT
 优点：
 1. 可以插入函数图形、公式、流程图等
 2. 无需考虑排版问题
@@ -111,7 +113,7 @@ classDiagram
 
 ---
 
-# 使用小技巧
+## 使用小技巧
 1. 输入空格：
   ```c
   &ensp;：输入一个空格
@@ -127,6 +129,6 @@ classDiagram
     ![](images/2022-06-01-20-02-13.png)
 
 
-# 用vscode写作业遇到的问题
+## 用vscode写作业遇到的问题
 1. 用浏览器导出pdf时，代码不能完整保留；
 2. 更改字体的颜色和高亮很不方便；
