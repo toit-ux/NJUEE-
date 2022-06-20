@@ -18,5 +18,5 @@
 1. git status 查看提交状态
 2. git branch 查看分支
 3. 撤销上一次提交
-   1. git convert HEAD (HEAD^ 撤销上上次提交)
+   1. git revert HEAD (HEAD^ 撤销上上次提交)
    2. git reset --hard HEAD
