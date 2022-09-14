@@ -51,4 +51,36 @@ always@（*）begin
 end
 ```
 ###### for语句
+与C语言类似，但在verilog中有三种形式
+1. 使用`integer`外部定义，循环体内为==赋值语句==
+   ```verilog
+   integer i;
+    always@(*)begin
+        for(i=0;i<10;i++)begin
+            assign out=a&b;
+            ...
+        end
+    end
+   ```
+2. 使用`int`内部定义，循环体内为==赋值语句==
+    ```verilog
+    always@(*)begin
+        for(int i=0;i<10;i++)begin
+            assign out=a&b;
+            ...
+        end
+    end
+   ```
+3. `generate for`，循环体内为==子模块==
+     ```verilog
+     genvar i;
+    generate
+        for(i=0;i<10;i++)begin:add    //begin后面必须写上该生成器模块名称
+            full_add(a[i],b[i],cin,sum,cout);
+            ...
+        end
+    endgenerate
+   ```
+
+
 ###### while语句
