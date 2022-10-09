@@ -1,6 +1,13 @@
 
+[toc]
 # 如何在vscode中配置c语言环境
 
+#### 下载mingw64
+其中含有c/c++代码编译和调试的库函数
+[下载链接](https://gytx.lanzouy.com/iW32909witba)
+
+
+####配置环境变量
 1. 确保代码所在的路径中不含有中文；
 2. 编辑launch.jason
    ```json
@@ -75,6 +82,10 @@
     ]
     }
     ```
+
+#### 简便方法(直接到这部即可)
+[一个配置vscode c语言的程序](https://www.notion.so/software-a0ee9f904d034af2bceb7fdae1779b4d)
+
 4. 经测试可以实现正常编译与单步调试功能
    
    ![](images/2022-05-28-11-12-11.png)
